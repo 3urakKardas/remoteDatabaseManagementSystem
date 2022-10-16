@@ -74,7 +74,7 @@ As they are using internet connection firewall may need permission for both prog
 just fine, but on different platforms or under the protection of some serious security programs they can be blocked,
 if so the permission must be given both on firewall and on the custom security app.
 
-Example sequence of client-side user input:
+Example sequence of client-side user input(without double quotation):
 
 "123.456.78.9 9909"
 
@@ -82,7 +82,7 @@ Example sequence of client-side user input:
 
 "execute CREATE TABLE customers (first_name text,last_name text,email text)"
 
-"set:myList [('Johan','Liebert','jhnLibrt@email.com),('Jean','Valjean','jnVljn@email.com')]"
+"set:myList [('Johan','Liebert','jhnLibrt@email.com'),('Jean','Valjean','jnVljn@email.com')]"
 
 "append:myList ('Carolus','Rex','crlsRx@email.com')"
 
